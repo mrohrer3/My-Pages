@@ -1,0 +1,124 @@
+     body /*bottom half of page */
+     {
+         border: 0px;
+         margin: 0px;
+         font-size: 112%;
+         font-family: arial;
+        background: #edf2f7;
+     }
+     
+     h1 /* About Me*/
+     {
+         color: #7387be;
+         font-variant: small-caps;
+         padding: 0cm 11cm;
+     }
+     
+     a:link /* links on left side */
+     {
+         color: white; /* this is the color of the link */
+         font-size: 100%;
+         font-weight: bold;
+     }
+     
+     a:hover,
+     a:active
+     {
+         color: #eeba77; /* this is the color it changes to when you hover over the link */
+         font-size: 150%;
+     }
+     
+     
+     #nav
+     {
+             
+     
+     }
+     
+     title
+     {
+        font-size: 2em;
+         font-variant: small-caps;
+         font-family: sans-serif;
+         margin: 14px;
+         font-weight: bold;
+         
+     }
+     
+     #header /* navigation bar on left side */
+     {
+         width: 187px;
+         position: fixed;
+         background-color: #7387be;
+         color: white; 
+         border-right: 3px solid LightSteelBlue;
+         padding: 5px;
+         height: 100%;
+     }
+     
+
+     
+     #content /* main text color*/
+     {
+         margin-left: 200px;
+         left: 0px;
+         top: 0px;
+         bottom: 0px;
+         right: 0px;
+         color: #101110;
+         background-color: #edf2f7;
+     }
+     
+     
+     div
+     {
+         padding: 15px;
+         
+         
+     }
+     
+     #information
+     {
+         font-variant: normal;
+         
+     }
+     #information a:link /* color of link after it has been clicked */
+     {
+         color: #800080;
+     }
+     p
+     {
+     
+         padding: 0cm 1.5cm 20px;
+     
+         
+     }
+     
+     h2 /* welcome to my page */
+     {
+         color: #57a6b4;
+         padding: 0cm 1cm;
+     }
+
+img
+{
+    border-radius: 10px;
+    margin-left: 100px;
+}
+/* Create two equal columns that floats next to each other */ 
+/*found on w3 schools */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+
+  }
+  
+  /* Clear floats after the columns */
+  /*found on w3 schools */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
